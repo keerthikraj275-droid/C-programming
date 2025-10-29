@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+int main() {
+    int n, square, cube;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    square = n * n;
+    cube = n * n * n;
+
+    printf("Square of %d = %d\n", n, square);
+    printf("Cube of %d = %d\n", n, cube);
+
+    return 0; 
+ }
